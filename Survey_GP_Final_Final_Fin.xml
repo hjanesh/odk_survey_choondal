@@ -1,0 +1,1361 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Survey_GP_Final</h:title>
+    <model>
+      <instance>
+        <data id="build_Untitled-Form_1530881246">
+          <meta>
+            <instanceID/>
+          </meta>
+          <individual_data>
+            <wd_no/>
+            <hseno/>
+            <name/>
+          </individual_data>
+          <individua_data2>
+            <addr/>
+            <phone1/>
+            <phone2/>
+            <family_type/>
+            <ration/>
+          </individua_data2>
+          <land>
+            <land1/>
+            <area1>
+              0
+            </area1>
+            <area2>
+              0
+            </area2>
+          </land>
+          <agri>
+            <nellu>
+              0
+            </nellu>
+            <coconut>
+              0
+            </coconut>
+            <kavungu>
+              0
+            </kavungu>
+            <nenvazha>
+              0
+            </nenvazha>
+          </agri>
+          <agri2>
+            <idavila/>
+            <mattu/>
+            <profit>
+              0
+            </profit>
+          </agri2>
+          <livestock>
+            <pashu>
+              0
+            </pashu>
+            <pothu>
+              0
+            </pothu>
+            <eruma>
+              0
+            </eruma>
+            <aadu>
+              0
+            </aadu>
+            <moyal>
+              0
+            </moyal>
+          </livestock>
+          <birds>
+            <kozhi>
+              0
+            </kozhi>
+            <thaaravu>
+              0
+            </thaaravu>
+            <kaada>
+              0
+            </kaada>
+          </birds>
+          <fish/>
+          <products>
+            <milk>
+              0
+            </milk>
+            <eggs>
+              0
+            </eggs>
+            <meat>
+              0
+            </meat>
+          </products>
+          <house>
+            <own/>
+            <roof/>
+            <wall_material/>
+            <whitewash/>
+            <floor/>
+          </house>
+          <kitchen>
+            <kitchenpresent/>
+            <cooking/>
+            <smoke/>
+          </kitchen>
+          <others>
+            <watersource/>
+            <septictank/>
+            <wastemanagement/>
+            <mosquitoes/>
+          </others>
+          <electricity>
+            <type/>
+            <inverter/>
+            <solar/>
+            <ledbulbs>
+              0
+            </ledbulbs>
+            <otherbulbs>
+              0
+            </otherbulbs>
+          </electricity>
+          <vehicles>
+            <cycle>
+              0
+            </cycle>
+            <two>
+              0
+            </two>
+            <three>
+              0
+            </three>
+            <four>
+              0
+            </four>
+          </vehicles>
+          <education>
+            <school/>
+            <degree/>
+          </education>
+          <misc>
+            <hcapped/>
+            <numofhcap>
+              0
+            </numofhcap>
+            <beni/>
+            <typeoddis/>
+            <care/>
+            <treatment/>
+          </misc>
+          <Category/>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/individual_data:label">
+            <value>House Primary</value>
+          </text>
+          <text id="/data/individual_data/wd_no:label">
+            <value>Ward Number</value>
+          </text>
+          <text id="/data/individual_data/wd_no:hint">
+            <value></value>
+          </text>
+          <text id="/data/individual_data/hseno:label">
+            <value>House Number</value>
+          </text>
+          <text id="/data/individual_data/name:label">
+            <value>Name</value>
+          </text>
+          <text id="/data/individual_data/name:hint">
+            <value></value>
+          </text>
+          <text id="/data/individua_data2:label">
+            <value>House Secondary</value>
+          </text>
+          <text id="/data/individua_data2/addr:label">
+            <value>Address</value>
+          </text>
+          <text id="/data/individua_data2/phone1:label">
+            <value>Landline</value>
+          </text>
+          <text id="/data/individua_data2/phone2:label">
+            <value>Mobile</value>
+          </text>
+          <text id="/data/individua_data2/family_type:label">
+            <value>Type of Family</value>
+          </text>
+          <text id="/data/individua_data2/family_type:option0">
+            <value>Joint</value>
+          </text>
+          <text id="/data/individua_data2/family_type:option1">
+            <value>Nuclear</value>
+          </text>
+          <text id="/data/individua_data2/ration:label">
+            <value>Ration Card</value>
+          </text>
+          <text id="/data/individua_data2/ration:option0">
+            <value>Yellow</value>
+          </text>
+          <text id="/data/individua_data2/ration:option1">
+            <value>Blue</value>
+          </text>
+          <text id="/data/individua_data2/ration:option2">
+            <value>Pink</value>
+          </text>
+          <text id="/data/individua_data2/ration:option3">
+            <value>White</value>
+          </text>
+          <text id="/data/individua_data2/ration:option4">
+            <value>No Ration Card</value>
+          </text>
+          <text id="/data/land:label">
+            <value>Land</value>
+          </text>
+          <text id="/data/land/land1:label">
+            <value>Type of Land</value>
+          </text>
+          <text id="/data/land/land1:option0">
+            <value>Karabhoomi</value>
+          </text>
+          <text id="/data/land/land1:option1">
+            <value>Vayal</value>
+          </text>
+          <text id="/data/land/area1:label">
+            <value>Area (in Acres) - Karabhoomi</value>
+          </text>
+          <text id="/data/land/area2:label">
+            <value>Area (in Acres) - Vayal</value>
+          </text>
+          <text id="/data/agri:label">
+            <value>Agriculture Details (Area in Acres) #1</value>
+          </text>
+          <text id="/data/agri/nellu:label">
+            <value>Nellu</value>
+          </text>
+          <text id="/data/agri/nellu:hint">
+            <value></value>
+          </text>
+          <text id="/data/agri/coconut:label">
+            <value>Coconut</value>
+          </text>
+          <text id="/data/agri/kavungu:label">
+            <value>Kavungu</value>
+          </text>
+          <text id="/data/agri/kavungu:hint">
+            <value></value>
+          </text>
+          <text id="/data/agri/nenvazha:label">
+            <value>NenthraVazha</value>
+          </text>
+          <text id="/data/agri2:label">
+            <value>Agriculture Details #2</value>
+          </text>
+          <text id="/data/agri2/idavila:label">
+            <value>Idavilakrishi (if yes, names)</value>
+          </text>
+          <text id="/data/agri2/mattu:label">
+            <value>Terrace Farming (Yes or No)</value>
+          </text>
+          <text id="/data/agri2/profit:label">
+            <value>Profit from Agriculture (Rupees)</value>
+          </text>
+          <text id="/data/livestock:label">
+            <value>Livestock (Count)</value>
+          </text>
+          <text id="/data/livestock/pashu:label">
+            <value>Pashu</value>
+          </text>
+          <text id="/data/livestock/pothu:label">
+            <value>Pothu</value>
+          </text>
+          <text id="/data/livestock/eruma:label">
+            <value>Eruma</value>
+          </text>
+          <text id="/data/livestock/aadu:label">
+            <value>Aadu</value>
+          </text>
+          <text id="/data/livestock/moyal:label">
+            <value>Moyal</value>
+          </text>
+          <text id="/data/birds:label">
+            <value>Birds (count)</value>
+          </text>
+          <text id="/data/birds/kozhi:label">
+            <value>Kozhi</value>
+          </text>
+          <text id="/data/birds/thaaravu:label">
+            <value>Thaaravu</value>
+          </text>
+          <text id="/data/birds/kaada:label">
+            <value>Kada</value>
+          </text>
+          <text id="/data/fish:label">
+            <value>Fish</value>
+          </text>
+          <text id="/data/fish:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/fish:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/products:label">
+            <value>Products from Home (Qty)</value>
+          </text>
+          <text id="/data/products/milk:label">
+            <value>Milk</value>
+          </text>
+          <text id="/data/products/milk:hint">
+            <value>Litres</value>
+          </text>
+          <text id="/data/products/eggs:label">
+            <value>Eggs</value>
+          </text>
+          <text id="/data/products/eggs:hint">
+            <value>Count</value>
+          </text>
+          <text id="/data/products/meat:label">
+            <value>Meat</value>
+          </text>
+          <text id="/data/products/meat:hint">
+            <value>Kg</value>
+          </text>
+          <text id="/data/house:label">
+            <value>House</value>
+          </text>
+          <text id="/data/house/own:label">
+            <value>Ownership</value>
+          </text>
+          <text id="/data/house/own:option0">
+            <value>Own</value>
+          </text>
+          <text id="/data/house/own:option1">
+            <value>Rent</value>
+          </text>
+          <text id="/data/house/roof:label">
+            <value>Roof</value>
+          </text>
+          <text id="/data/house/roof:hint">
+            <value>Type of Roof</value>
+          </text>
+          <text id="/data/house/roof:option0">
+            <value>Ola</value>
+          </text>
+          <text id="/data/house/roof:option1">
+            <value>Pullu</value>
+          </text>
+          <text id="/data/house/roof:option2">
+            <value>Vaikol</value>
+          </text>
+          <text id="/data/house/roof:option3">
+            <value>Sheet</value>
+          </text>
+          <text id="/data/house/roof:option4">
+            <value>Odu</value>
+          </text>
+          <text id="/data/house/roof:option5">
+            <value>Concrete</value>
+          </text>
+          <text id="/data/house/wall_material:label">
+            <value>Material of Wall</value>
+          </text>
+          <text id="/data/house/wall_material:hint">
+            <value>Material used</value>
+          </text>
+          <text id="/data/house/wall_material:option0">
+            <value>Ola</value>
+          </text>
+          <text id="/data/house/wall_material:option1">
+            <value>Mulla</value>
+          </text>
+          <text id="/data/house/wall_material:option2">
+            <value>Earth</value>
+          </text>
+          <text id="/data/house/wall_material:option3">
+            <value>Stone</value>
+          </text>
+          <text id="/data/house/wall_material:option4">
+            <value>Bricks</value>
+          </text>
+          <text id="/data/house/whitewash:label">
+            <value>Whitewash</value>
+          </text>
+          <text id="/data/house/whitewash:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/house/whitewash:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/house/floor:label">
+            <value>Floor</value>
+          </text>
+          <text id="/data/house/floor:hint">
+            <value>Type of Foor</value>
+          </text>
+          <text id="/data/house/floor:option0">
+            <value>Earth</value>
+          </text>
+          <text id="/data/house/floor:option1">
+            <value>Cow Dung</value>
+          </text>
+          <text id="/data/house/floor:option2">
+            <value>Cement</value>
+          </text>
+          <text id="/data/house/floor:option3">
+            <value>Mosaic</value>
+          </text>
+          <text id="/data/house/floor:option4">
+            <value>Marble</value>
+          </text>
+          <text id="/data/house/floor:option5">
+            <value>Granite</value>
+          </text>
+          <text id="/data/kitchen:label">
+            <value>Kitchen</value>
+          </text>
+          <text id="/data/kitchen/kitchenpresent:label">
+            <value>Kitchen</value>
+          </text>
+          <text id="/data/kitchen/kitchenpresent:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/kitchen/kitchenpresent:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/kitchen/cooking:label">
+            <value>Cooking (Select Multiple)</value>
+          </text>
+          <text id="/data/kitchen/cooking:option0">
+            <value>Wood</value>
+          </text>
+          <text id="/data/kitchen/cooking:option1">
+            <value>Kerosene</value>
+          </text>
+          <text id="/data/kitchen/cooking:option2">
+            <value>Gas</value>
+          </text>
+          <text id="/data/kitchen/cooking:option3">
+            <value>Electric</value>
+          </text>
+          <text id="/data/kitchen/cooking:option4">
+            <value>Biogas</value>
+          </text>
+          <text id="/data/kitchen/cooking:option5">
+            <value>Solar</value>
+          </text>
+          <text id="/data/kitchen/smoke:label">
+            <value>No Smoke System</value>
+          </text>
+          <text id="/data/kitchen/smoke:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/kitchen/smoke:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/others:label">
+            <value>Others</value>
+          </text>
+          <text id="/data/others/watersource:label">
+            <value>Water Source</value>
+          </text>
+          <text id="/data/others/watersource:hint">
+            <value>select multiple</value>
+          </text>
+          <text id="/data/others/watersource:option0">
+            <value>Own Well</value>
+          </text>
+          <text id="/data/others/watersource:option1">
+            <value>OtherWell</value>
+          </text>
+          <text id="/data/others/watersource:option2">
+            <value>Kulam</value>
+          </text>
+          <text id="/data/others/watersource:option3">
+            <value>Canal</value>
+          </text>
+          <text id="/data/others/watersource:option4">
+            <value>Pothukootayima Pipe</value>
+          </text>
+          <text id="/data/others/watersource:option5">
+            <value>Pipe from Common Source</value>
+          </text>
+          <text id="/data/others/watersource:option6">
+            <value>Others</value>
+          </text>
+          <text id="/data/others/septictank:label">
+            <value>Septic Tank</value>
+          </text>
+          <text id="/data/others/septictank:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/others/septictank:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/others/wastemanagement:label">
+            <value>Waste Management</value>
+          </text>
+          <text id="/data/others/wastemanagement:option0">
+            <value>Dedicated Space (Kuzhi)</value>
+          </text>
+          <text id="/data/others/wastemanagement:option1">
+            <value>Burn</value>
+          </text>
+          <text id="/data/others/wastemanagement:option2">
+            <value>Throw Away</value>
+          </text>
+          <text id="/data/others/wastemanagement:option3">
+            <value>Compost</value>
+          </text>
+          <text id="/data/others/wastemanagement:option4">
+            <value>Biogas</value>
+          </text>
+          <text id="/data/others/wastemanagement:option5">
+            <value>Kitchen Bin</value>
+          </text>
+          <text id="/data/others/wastemanagement:option6">
+            <value>Nothing Specific</value>
+          </text>
+          <text id="/data/others/mosquitoes:label">
+            <value>Mosquito Prevention</value>
+          </text>
+          <text id="/data/others/mosquitoes:option0">
+            <value>Net</value>
+          </text>
+          <text id="/data/others/mosquitoes:option1">
+            <value>Cream</value>
+          </text>
+          <text id="/data/others/mosquitoes:option2">
+            <value>Coil</value>
+          </text>
+          <text id="/data/others/mosquitoes:option3">
+            <value>Conventional Methods</value>
+          </text>
+          <text id="/data/others/mosquitoes:option4">
+            <value>Others</value>
+          </text>
+          <text id="/data/others/mosquitoes:option5">
+            <value>Nothing Specific</value>
+          </text>
+          <text id="/data/electricity:label">
+            <value>Electricity</value>
+          </text>
+          <text id="/data/electricity/type:label">
+            <value>Type</value>
+          </text>
+          <text id="/data/electricity/type:option0">
+            <value>No Connection</value>
+          </text>
+          <text id="/data/electricity/type:option1">
+            <value>Single Phase</value>
+          </text>
+          <text id="/data/electricity/type:option2">
+            <value>3 Phase</value>
+          </text>
+          <text id="/data/electricity/inverter:label">
+            <value>Inverter</value>
+          </text>
+          <text id="/data/electricity/inverter:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/electricity/inverter:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/electricity/solar:label">
+            <value>Solar Panel</value>
+          </text>
+          <text id="/data/electricity/solar:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/electricity/solar:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/electricity/ledbulbs:label">
+            <value>LED Bulbs</value>
+          </text>
+          <text id="/data/electricity/ledbulbs:hint">
+            <value>count</value>
+          </text>
+          <text id="/data/electricity/otherbulbs:label">
+            <value>Other Bulbs</value>
+          </text>
+          <text id="/data/electricity/otherbulbs:hint">
+            <value>count</value>
+          </text>
+          <text id="/data/vehicles:label">
+            <value>Vehicles</value>
+          </text>
+          <text id="/data/vehicles/cycle:label">
+            <value>Cycle</value>
+          </text>
+          <text id="/data/vehicles/cycle:hint">
+            <value>count</value>
+          </text>
+          <text id="/data/vehicles/two:label">
+            <value>Two Wheeler</value>
+          </text>
+          <text id="/data/vehicles/two:hint">
+            <value>count</value>
+          </text>
+          <text id="/data/vehicles/three:label">
+            <value>Three Wheeler</value>
+          </text>
+          <text id="/data/vehicles/three:hint">
+            <value>count</value>
+          </text>
+          <text id="/data/vehicles/four:label">
+            <value>Four Wheeler</value>
+          </text>
+          <text id="/data/vehicles/four:hint">
+            <value>count</value>
+          </text>
+          <text id="/data/education:label">
+            <value>Education</value>
+          </text>
+          <text id="/data/education/school:label">
+            <value>School (up to)</value>
+          </text>
+          <text id="/data/education/school:hint">
+            <value>Grade</value>
+          </text>
+          <text id="/data/education/degree:label">
+            <value>Profesional Degree</value>
+          </text>
+          <text id="/data/education/degree:hint">
+            <value>course</value>
+          </text>
+          <text id="/data/misc:label">
+            <value>Misc</value>
+          </text>
+          <text id="/data/misc/hcapped:label">
+            <value>Handicapped</value>
+          </text>
+          <text id="/data/misc/hcapped:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/misc/hcapped:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/misc/numofhcap:label">
+            <value>Number of disabled</value>
+          </text>
+          <text id="/data/misc/beni:label">
+            <value>Benifits </value>
+          </text>
+          <text id="/data/misc/beni:hint">
+            <value>(Received or Receiving)</value>
+          </text>
+          <text id="/data/misc/beni:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/misc/beni:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/misc/typeoddis:label">
+            <value>Type of Disability</value>
+          </text>
+          <text id="/data/misc/typeoddis:option0">
+            <value>Prayodikyam</value>
+          </text>
+          <text id="/data/misc/typeoddis:option1">
+            <value>Physical</value>
+          </text>
+          <text id="/data/misc/typeoddis:option2">
+            <value>Mental</value>
+          </text>
+          <text id="/data/misc/care:label">
+            <value>Care Needed?</value>
+          </text>
+          <text id="/data/misc/care:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/misc/care:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/misc/treatment:label">
+            <value>Currently treated by?</value>
+          </text>
+          <text id="/data/misc/treatment:option0">
+            <value>Family</value>
+          </text>
+          <text id="/data/misc/treatment:option1">
+            <value>Palliative Care</value>
+          </text>
+          <text id="/data/misc/treatment:option2">
+            <value>Others</value>
+          </text>
+          <text id="/data/Category:label">
+            <value>Relegion/Caste</value>
+          </text>
+          <text id="/data/Category:option0">
+            <value>SC</value>
+          </text>
+          <text id="/data/Category:option1">
+            <value>ST</value>
+          </text>
+          <text id="/data/Category:option2">
+            <value>OBC</value>
+          </text>
+          <text id="/data/Category:option3">
+            <value>OEC</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <submission method="form-data-post" action="https://docs.google.com/spreadsheets/d/10x9APc6DvfFcAeZJjMI913HApF5PIxTqp6vdPOGLCZ0/edit#gid=0"/>
+      <bind nodeset="/data/individual_data/wd_no" type="int" required="true()"/>
+      <bind nodeset="/data/individual_data/hseno" type="string" required="true()"/>
+      <bind nodeset="/data/individual_data/name" type="string" required="true()"/>
+      <bind nodeset="/data/individua_data2/addr" type="string" required="true()"/>
+      <bind nodeset="/data/individua_data2/phone1" type="string"/>
+      <bind nodeset="/data/individua_data2/phone2" type="string"/>
+      <bind nodeset="/data/individua_data2/family_type" type="select1" required="true()"/>
+      <bind nodeset="/data/individua_data2/ration" type="select1"/>
+      <bind nodeset="/data/land/land1" type="select"/>
+      <bind nodeset="/data/land/area1" type="decimal"/>
+      <bind nodeset="/data/land/area2" type="decimal"/>
+      <bind nodeset="/data/agri/nellu" type="decimal"/>
+      <bind nodeset="/data/agri/coconut" type="decimal"/>
+      <bind nodeset="/data/agri/kavungu" type="decimal"/>
+      <bind nodeset="/data/agri/nenvazha" type="decimal"/>
+      <bind nodeset="/data/agri2/idavila" type="string"/>
+      <bind nodeset="/data/agri2/mattu" type="string"/>
+      <bind nodeset="/data/agri2/profit" type="decimal"/>
+      <bind nodeset="/data/livestock/pashu" type="int"/>
+      <bind nodeset="/data/livestock/pothu" type="int"/>
+      <bind nodeset="/data/livestock/eruma" type="int"/>
+      <bind nodeset="/data/livestock/aadu" type="int"/>
+      <bind nodeset="/data/livestock/moyal" type="int"/>
+      <bind nodeset="/data/birds/kozhi" type="int"/>
+      <bind nodeset="/data/birds/thaaravu" type="int"/>
+      <bind nodeset="/data/birds/kaada" type="int"/>
+      <bind nodeset="/data/fish" type="select1"/>
+      <bind nodeset="/data/products/milk" type="decimal"/>
+      <bind nodeset="/data/products/eggs" type="int"/>
+      <bind nodeset="/data/products/meat" type="decimal"/>
+      <bind nodeset="/data/house/own" type="select1"/>
+      <bind nodeset="/data/house/roof" type="select1"/>
+      <bind nodeset="/data/house/wall_material" type="select1"/>
+      <bind nodeset="/data/house/whitewash" type="select1"/>
+      <bind nodeset="/data/house/floor" type="select1"/>
+      <bind nodeset="/data/kitchen/kitchenpresent" type="select1"/>
+      <bind nodeset="/data/kitchen/cooking" type="select"/>
+      <bind nodeset="/data/kitchen/smoke" type="select1"/>
+      <bind nodeset="/data/others/watersource" type="select"/>
+      <bind nodeset="/data/others/septictank" type="select1"/>
+      <bind nodeset="/data/others/wastemanagement" type="select"/>
+      <bind nodeset="/data/others/mosquitoes" type="select"/>
+      <bind nodeset="/data/electricity/type" type="select1"/>
+      <bind nodeset="/data/electricity/inverter" type="select1"/>
+      <bind nodeset="/data/electricity/solar" type="select1"/>
+      <bind nodeset="/data/electricity/ledbulbs" type="int"/>
+      <bind nodeset="/data/electricity/otherbulbs" type="int"/>
+      <bind nodeset="/data/vehicles/cycle" type="int"/>
+      <bind nodeset="/data/vehicles/two" type="int"/>
+      <bind nodeset="/data/vehicles/three" type="int"/>
+      <bind nodeset="/data/vehicles/four" type="int"/>
+      <bind nodeset="/data/education/school" type="string"/>
+      <bind nodeset="/data/education/degree" type="string"/>
+      <bind nodeset="/data/misc/hcapped" type="select1"/>
+      <bind nodeset="/data/misc/numofhcap" type="int"/>
+      <bind nodeset="/data/misc/beni" type="select1"/>
+      <bind nodeset="/data/misc/typeoddis" type="select1"/>
+      <bind nodeset="/data/misc/care" type="select1"/>
+      <bind nodeset="/data/misc/treatment" type="select"/>
+      <bind nodeset="/data/Category" type="select1"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/individual_data:label')"/>
+      <input ref="/data/individual_data/wd_no">
+        <label ref="jr:itext('/data/individual_data/wd_no:label')"/>
+        <hint ref="jr:itext('/data/individual_data/wd_no:hint')"/>
+      </input>
+      <input ref="/data/individual_data/hseno">
+        <label ref="jr:itext('/data/individual_data/hseno:label')"/>
+      </input>
+      <input ref="/data/individual_data/name">
+        <label ref="jr:itext('/data/individual_data/name:label')"/>
+        <hint ref="jr:itext('/data/individual_data/name:hint')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/individua_data2:label')"/>
+      <input ref="/data/individua_data2/addr">
+        <label ref="jr:itext('/data/individua_data2/addr:label')"/>
+      </input>
+      <input ref="/data/individua_data2/phone1">
+        <label ref="jr:itext('/data/individua_data2/phone1:label')"/>
+      </input>
+      <input ref="/data/individua_data2/phone2">
+        <label ref="jr:itext('/data/individua_data2/phone2:label')"/>
+      </input>
+      <select1 ref="/data/individua_data2/family_type" appearance="minimal">
+        <label ref="jr:itext('/data/individua_data2/family_type:label')"/>
+        <item>
+          <label ref="jr:itext('/data/individua_data2/family_type:option0')"/>
+          <value>Joint</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/individua_data2/family_type:option1')"/>
+          <value>Nuclear</value>
+        </item>
+      </select1>
+      <select1 ref="/data/individua_data2/ration" appearance="minimal">
+        <label ref="jr:itext('/data/individua_data2/ration:label')"/>
+        <item>
+          <label ref="jr:itext('/data/individua_data2/ration:option0')"/>
+          <value>Yellow</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/individua_data2/ration:option1')"/>
+          <value>Blue</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/individua_data2/ration:option2')"/>
+          <value>Pink</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/individua_data2/ration:option3')"/>
+          <value>White</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/individua_data2/ration:option4')"/>
+          <value>No Ration Card</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/land:label')"/>
+      <select ref="/data/land/land1" appearance="minimal">
+        <label ref="jr:itext('/data/land/land1:label')"/>
+        <item>
+          <label ref="jr:itext('/data/land/land1:option0')"/>
+          <value>Karabhoomi</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/land/land1:option1')"/>
+          <value>Vayal</value>
+        </item>
+      </select>
+      <input ref="/data/land/area1">
+        <label ref="jr:itext('/data/land/area1:label')"/>
+      </input>
+      <input ref="/data/land/area2">
+        <label ref="jr:itext('/data/land/area2:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/agri:label')"/>
+      <input ref="/data/agri/nellu">
+        <label ref="jr:itext('/data/agri/nellu:label')"/>
+        <hint ref="jr:itext('/data/agri/nellu:hint')"/>
+      </input>
+      <input ref="/data/agri/coconut">
+        <label ref="jr:itext('/data/agri/coconut:label')"/>
+      </input>
+      <input ref="/data/agri/kavungu">
+        <label ref="jr:itext('/data/agri/kavungu:label')"/>
+        <hint ref="jr:itext('/data/agri/kavungu:hint')"/>
+      </input>
+      <input ref="/data/agri/nenvazha">
+        <label ref="jr:itext('/data/agri/nenvazha:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/agri2:label')"/>
+      <input ref="/data/agri2/idavila">
+        <label ref="jr:itext('/data/agri2/idavila:label')"/>
+      </input>
+      <input ref="/data/agri2/mattu">
+        <label ref="jr:itext('/data/agri2/mattu:label')"/>
+      </input>
+      <input ref="/data/agri2/profit">
+        <label ref="jr:itext('/data/agri2/profit:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/livestock:label')"/>
+      <input ref="/data/livestock/pashu">
+        <label ref="jr:itext('/data/livestock/pashu:label')"/>
+      </input>
+      <input ref="/data/livestock/pothu">
+        <label ref="jr:itext('/data/livestock/pothu:label')"/>
+      </input>
+      <input ref="/data/livestock/eruma">
+        <label ref="jr:itext('/data/livestock/eruma:label')"/>
+      </input>
+      <input ref="/data/livestock/aadu">
+        <label ref="jr:itext('/data/livestock/aadu:label')"/>
+      </input>
+      <input ref="/data/livestock/moyal">
+        <label ref="jr:itext('/data/livestock/moyal:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/birds:label')"/>
+      <input ref="/data/birds/kozhi">
+        <label ref="jr:itext('/data/birds/kozhi:label')"/>
+      </input>
+      <input ref="/data/birds/thaaravu">
+        <label ref="jr:itext('/data/birds/thaaravu:label')"/>
+      </input>
+      <input ref="/data/birds/kaada">
+        <label ref="jr:itext('/data/birds/kaada:label')"/>
+      </input>
+    </group>
+    <select1 ref="/data/fish" appearance="minimal">
+      <label ref="jr:itext('/data/fish:label')"/>
+      <item>
+        <label ref="jr:itext('/data/fish:option0')"/>
+        <value>Yes</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/fish:option1')"/>
+        <value>No</value>
+      </item>
+    </select1>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/products:label')"/>
+      <input ref="/data/products/milk">
+        <label ref="jr:itext('/data/products/milk:label')"/>
+        <hint ref="jr:itext('/data/products/milk:hint')"/>
+      </input>
+      <input ref="/data/products/eggs">
+        <label ref="jr:itext('/data/products/eggs:label')"/>
+        <hint ref="jr:itext('/data/products/eggs:hint')"/>
+      </input>
+      <input ref="/data/products/meat">
+        <label ref="jr:itext('/data/products/meat:label')"/>
+        <hint ref="jr:itext('/data/products/meat:hint')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/house:label')"/>
+      <select1 ref="/data/house/own" appearance="minimal">
+        <label ref="jr:itext('/data/house/own:label')"/>
+        <item>
+          <label ref="jr:itext('/data/house/own:option0')"/>
+          <value>Own</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/house/own:option1')"/>
+          <value>Rent</value>
+        </item>
+      </select1>
+      <select1 ref="/data/house/roof" appearance="minimal">
+        <label ref="jr:itext('/data/house/roof:label')"/>
+        <hint ref="jr:itext('/data/house/roof:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/house/roof:option0')"/>
+          <value>Ola</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/house/roof:option1')"/>
+          <value>Pullu</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/house/roof:option2')"/>
+          <value>Vaikol</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/house/roof:option3')"/>
+          <value>Sheet</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/house/roof:option4')"/>
+          <value>Odu</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/house/roof:option5')"/>
+          <value>Concrete</value>
+        </item>
+      </select1>
+      <select1 ref="/data/house/wall_material" appearance="minimal">
+        <label ref="jr:itext('/data/house/wall_material:label')"/>
+        <hint ref="jr:itext('/data/house/wall_material:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/house/wall_material:option0')"/>
+          <value>Ola</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/house/wall_material:option1')"/>
+          <value>Mulla</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/house/wall_material:option2')"/>
+          <value>Earth</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/house/wall_material:option3')"/>
+          <value>Stone</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/house/wall_material:option4')"/>
+          <value>Bricks</value>
+        </item>
+      </select1>
+      <select1 ref="/data/house/whitewash" appearance="minimal">
+        <label ref="jr:itext('/data/house/whitewash:label')"/>
+        <item>
+          <label ref="jr:itext('/data/house/whitewash:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/house/whitewash:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+      <select1 ref="/data/house/floor" appearance="minimal">
+        <label ref="jr:itext('/data/house/floor:label')"/>
+        <hint ref="jr:itext('/data/house/floor:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/house/floor:option0')"/>
+          <value>Earth</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/house/floor:option1')"/>
+          <value>Cow Dung</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/house/floor:option2')"/>
+          <value>Cement</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/house/floor:option3')"/>
+          <value>Mosaic</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/house/floor:option4')"/>
+          <value>Marble</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/house/floor:option5')"/>
+          <value>Granite</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/kitchen:label')"/>
+      <select1 ref="/data/kitchen/kitchenpresent" appearance="minimal">
+        <label ref="jr:itext('/data/kitchen/kitchenpresent:label')"/>
+        <item>
+          <label ref="jr:itext('/data/kitchen/kitchenpresent:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/kitchen/kitchenpresent:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+      <select ref="/data/kitchen/cooking" appearance="minimal">
+        <label ref="jr:itext('/data/kitchen/cooking:label')"/>
+        <item>
+          <label ref="jr:itext('/data/kitchen/cooking:option0')"/>
+          <value>Wood</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/kitchen/cooking:option1')"/>
+          <value>Kerosene</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/kitchen/cooking:option2')"/>
+          <value>Gas</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/kitchen/cooking:option3')"/>
+          <value>Electric</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/kitchen/cooking:option4')"/>
+          <value>Biogas</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/kitchen/cooking:option5')"/>
+          <value>Solar</value>
+        </item>
+      </select>
+      <select1 ref="/data/kitchen/smoke" appearance="minimal">
+        <label ref="jr:itext('/data/kitchen/smoke:label')"/>
+        <item>
+          <label ref="jr:itext('/data/kitchen/smoke:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/kitchen/smoke:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/others:label')"/>
+      <select ref="/data/others/watersource" appearance="minimal">
+        <label ref="jr:itext('/data/others/watersource:label')"/>
+        <hint ref="jr:itext('/data/others/watersource:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/others/watersource:option0')"/>
+          <value>Own Well</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/others/watersource:option1')"/>
+          <value>OtherWell</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/others/watersource:option2')"/>
+          <value>Kulam</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/others/watersource:option3')"/>
+          <value>Canal</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/others/watersource:option4')"/>
+          <value>Pothukootayima Pipe</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/others/watersource:option5')"/>
+          <value>Pipe from Common Source</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/others/watersource:option6')"/>
+          <value>Others</value>
+        </item>
+      </select>
+      <select1 ref="/data/others/septictank" appearance="minimal">
+        <label ref="jr:itext('/data/others/septictank:label')"/>
+        <item>
+          <label ref="jr:itext('/data/others/septictank:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/others/septictank:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+      <select ref="/data/others/wastemanagement" appearance="minimal">
+        <label ref="jr:itext('/data/others/wastemanagement:label')"/>
+        <item>
+          <label ref="jr:itext('/data/others/wastemanagement:option0')"/>
+          <value>Dedicated Space (Kuzhi)</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/others/wastemanagement:option1')"/>
+          <value>Burn</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/others/wastemanagement:option2')"/>
+          <value>Throw Away</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/others/wastemanagement:option3')"/>
+          <value>Compost</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/others/wastemanagement:option4')"/>
+          <value>Biogas</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/others/wastemanagement:option5')"/>
+          <value>Kitchen Bin</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/others/wastemanagement:option6')"/>
+          <value>Nothing Specific</value>
+        </item>
+      </select>
+      <select ref="/data/others/mosquitoes" appearance="minimal">
+        <label ref="jr:itext('/data/others/mosquitoes:label')"/>
+        <item>
+          <label ref="jr:itext('/data/others/mosquitoes:option0')"/>
+          <value>Net</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/others/mosquitoes:option1')"/>
+          <value>Cream</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/others/mosquitoes:option2')"/>
+          <value>Coil</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/others/mosquitoes:option3')"/>
+          <value>Conventional Methods</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/others/mosquitoes:option4')"/>
+          <value>Others</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/others/mosquitoes:option5')"/>
+          <value>Nothing Specific</value>
+        </item>
+      </select>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/electricity:label')"/>
+      <select1 ref="/data/electricity/type" appearance="minimal">
+        <label ref="jr:itext('/data/electricity/type:label')"/>
+        <item>
+          <label ref="jr:itext('/data/electricity/type:option0')"/>
+          <value>No Connection</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/electricity/type:option1')"/>
+          <value>Single Phase</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/electricity/type:option2')"/>
+          <value>3 Phase</value>
+        </item>
+      </select1>
+      <select1 ref="/data/electricity/inverter" appearance="minimal">
+        <label ref="jr:itext('/data/electricity/inverter:label')"/>
+        <item>
+          <label ref="jr:itext('/data/electricity/inverter:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/electricity/inverter:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+      <select1 ref="/data/electricity/solar" appearance="minimal">
+        <label ref="jr:itext('/data/electricity/solar:label')"/>
+        <item>
+          <label ref="jr:itext('/data/electricity/solar:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/electricity/solar:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+      <input ref="/data/electricity/ledbulbs">
+        <label ref="jr:itext('/data/electricity/ledbulbs:label')"/>
+        <hint ref="jr:itext('/data/electricity/ledbulbs:hint')"/>
+      </input>
+      <input ref="/data/electricity/otherbulbs">
+        <label ref="jr:itext('/data/electricity/otherbulbs:label')"/>
+        <hint ref="jr:itext('/data/electricity/otherbulbs:hint')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/vehicles:label')"/>
+      <range ref="/data/vehicles/cycle" start="0" end="10" step="1">
+        <label ref="jr:itext('/data/vehicles/cycle:label')"/>
+        <hint ref="jr:itext('/data/vehicles/cycle:hint')"/>
+      </range>
+      <range ref="/data/vehicles/two" start="0" end="10" step="1">
+        <label ref="jr:itext('/data/vehicles/two:label')"/>
+        <hint ref="jr:itext('/data/vehicles/two:hint')"/>
+      </range>
+      <range ref="/data/vehicles/three" start="0" end="10" step="1">
+        <label ref="jr:itext('/data/vehicles/three:label')"/>
+        <hint ref="jr:itext('/data/vehicles/three:hint')"/>
+      </range>
+      <range ref="/data/vehicles/four" start="0" end="10" step="1">
+        <label ref="jr:itext('/data/vehicles/four:label')"/>
+        <hint ref="jr:itext('/data/vehicles/four:hint')"/>
+      </range>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/education:label')"/>
+      <input ref="/data/education/school">
+        <label ref="jr:itext('/data/education/school:label')"/>
+        <hint ref="jr:itext('/data/education/school:hint')"/>
+      </input>
+      <input ref="/data/education/degree">
+        <label ref="jr:itext('/data/education/degree:label')"/>
+        <hint ref="jr:itext('/data/education/degree:hint')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/misc:label')"/>
+      <select1 ref="/data/misc/hcapped" appearance="minimal">
+        <label ref="jr:itext('/data/misc/hcapped:label')"/>
+        <item>
+          <label ref="jr:itext('/data/misc/hcapped:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/misc/hcapped:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+      <input ref="/data/misc/numofhcap">
+        <label ref="jr:itext('/data/misc/numofhcap:label')"/>
+      </input>
+      <select1 ref="/data/misc/beni" appearance="minimal">
+        <label ref="jr:itext('/data/misc/beni:label')"/>
+        <hint ref="jr:itext('/data/misc/beni:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/misc/beni:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/misc/beni:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+      <select1 ref="/data/misc/typeoddis" appearance="minimal">
+        <label ref="jr:itext('/data/misc/typeoddis:label')"/>
+        <item>
+          <label ref="jr:itext('/data/misc/typeoddis:option0')"/>
+          <value>Prayodikyam</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/misc/typeoddis:option1')"/>
+          <value>Physical</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/misc/typeoddis:option2')"/>
+          <value>Mental</value>
+        </item>
+      </select1>
+      <select1 ref="/data/misc/care" appearance="minimal">
+        <label ref="jr:itext('/data/misc/care:label')"/>
+        <item>
+          <label ref="jr:itext('/data/misc/care:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/misc/care:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+      <select ref="/data/misc/treatment" appearance="minimal">
+        <label ref="jr:itext('/data/misc/treatment:label')"/>
+        <item>
+          <label ref="jr:itext('/data/misc/treatment:option0')"/>
+          <value>Family</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/misc/treatment:option1')"/>
+          <value>Palliative Care</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/misc/treatment:option2')"/>
+          <value>Others</value>
+        </item>
+      </select>
+    </group>
+    <select1 ref="/data/Category" appearance="minimal">
+      <label ref="jr:itext('/data/Category:label')"/>
+      <item>
+        <label ref="jr:itext('/data/Category:option0')"/>
+        <value>SC</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Category:option1')"/>
+        <value>ST</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Category:option2')"/>
+        <value>OBC</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/Category:option3')"/>
+        <value>OEC</value>
+      </item>
+    </select1>
+  </h:body>
+</h:html>

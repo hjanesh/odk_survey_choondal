@@ -1,0 +1,134 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Survey_Asset</h:title>
+    <model>
+      <instance>
+        <data id="build_Untitled-Form_1530942581">
+          <meta>
+            <instanceID/>
+          </meta>
+          <asstdetails>
+            <wardnumber/>
+            <asset_cat/>
+          </asstdetails>
+          <asstdesc>
+            <asstname/>
+            <desc/>
+          </asstdesc>
+          <asstloca/>
+          <asstimage/>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/asstdetails:label">
+            <value>Asset Description</value>
+          </text>
+          <text id="/data/asstdetails/wardnumber:label">
+            <value>Ward Number</value>
+          </text>
+          <text id="/data/asstdetails/asset_cat:label">
+            <value>Asset Category</value>
+          </text>
+          <text id="/data/asstdetails/asset_cat:option0">
+            <value>Street Light</value>
+          </text>
+          <text id="/data/asstdetails/asset_cat:option1">
+            <value>Street Tap</value>
+          </text>
+          <text id="/data/asstdetails/asset_cat:option2">
+            <value>Water Sources</value>
+          </text>
+          <text id="/data/asstdetails/asset_cat:option3">
+            <value>Land Areas</value>
+          </text>
+          <text id="/data/asstdetails/asset_cat:option4">
+            <value>Bridges and Culverts</value>
+          </text>
+          <text id="/data/asstdetails/asset_cat:option5">
+            <value>SIgn Boardes</value>
+          </text>
+          <text id="/data/asstdetails/asset_cat:option6">
+            <value>Trees</value>
+          </text>
+          <text id="/data/asstdesc:label">
+            <value>Asset Details</value>
+          </text>
+          <text id="/data/asstdesc/asstname:label">
+            <value>Asset Name</value>
+          </text>
+          <text id="/data/asstdesc/desc:label">
+            <value>Asset Description</value>
+          </text>
+          <text id="/data/asstloca:label">
+            <value>Asset Location</value>
+          </text>
+          <text id="/data/asstimage:label">
+            <value>Asset Image</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/asstdetails/wardnumber" type="int" required="true()"/>
+      <bind nodeset="/data/asstdetails/asset_cat" type="select1" required="true()"/>
+      <bind nodeset="/data/asstdesc/asstname" type="string"/>
+      <bind nodeset="/data/asstdesc/desc" type="string"/>
+      <bind nodeset="/data/asstloca" type="geopoint" required="true()"/>
+      <bind nodeset="/data/asstimage" type="binary" required="true()"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/asstdetails:label')"/>
+      <input ref="/data/asstdetails/wardnumber">
+        <label ref="jr:itext('/data/asstdetails/wardnumber:label')"/>
+      </input>
+      <select1 ref="/data/asstdetails/asset_cat" appearance="minimal">
+        <label ref="jr:itext('/data/asstdetails/asset_cat:label')"/>
+        <item>
+          <label ref="jr:itext('/data/asstdetails/asset_cat:option0')"/>
+          <value>Street Light</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/asstdetails/asset_cat:option1')"/>
+          <value>Street Tap</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/asstdetails/asset_cat:option2')"/>
+          <value>Water Sources</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/asstdetails/asset_cat:option3')"/>
+          <value>Land Areas</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/asstdetails/asset_cat:option4')"/>
+          <value>Bridges and Culverts</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/asstdetails/asset_cat:option5')"/>
+          <value>SIgn Boardes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/asstdetails/asset_cat:option6')"/>
+          <value>Trees</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/asstdesc:label')"/>
+      <input ref="/data/asstdesc/asstname">
+        <label ref="jr:itext('/data/asstdesc/asstname:label')"/>
+      </input>
+      <input ref="/data/asstdesc/desc">
+        <label ref="jr:itext('/data/asstdesc/desc:label')"/>
+      </input>
+    </group>
+    <input ref="/data/asstloca">
+      <label ref="jr:itext('/data/asstloca:label')"/>
+    </input>
+    <upload ref="/data/asstimage" mediatype="image/*">
+      <label ref="jr:itext('/data/asstimage:label')"/>
+    </upload>
+  </h:body>
+</h:html>
